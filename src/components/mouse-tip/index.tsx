@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef } from "react";
+import React, { useEffect, useMemo, useRef } from "react";
 import { MouseTipProps } from "../../types";
 import DrawIcon from "../../assets/icons/draw";
 import ArrowIcon from "../../assets/icons/arrow";

@@ -1,4 +1,4 @@
-import { useMemo } from "react";
+import React, { useMemo } from "react";
 import { ToolProps } from "../../types";
 import DrawIcon from "../../assets/icons/draw";
 import ArrowIcon from "../../assets/icons/arrow";

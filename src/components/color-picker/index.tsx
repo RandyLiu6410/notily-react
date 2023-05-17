@@ -1,3 +1,4 @@
+import React from "react";
 import RandomIcon from "../../assets/icons/random";
 import {
   ColorPickerProps,

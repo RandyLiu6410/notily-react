@@ -1,4 +1,4 @@
-import { MouseEventHandler, useRef } from "react";
+import React, { MouseEventHandler, useRef } from "react";
 import { CanvasProps } from "../../types";
 import DrawRenderer from "../../renderer/draw";
 import RectangleRenderer from "../../renderer/rectangle";

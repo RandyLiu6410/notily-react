@@ -1,6 +1,6 @@
 {
   "name": "notily-react",
-  "version": "0.1.0",
+  "version": "0.2.1",
   "description": "An annotation tool for react.",
   "author": {
     "name": "Randy Liu",
@@ -12,16 +12,14 @@
   },
   "bundleDependencies": false,
   "deprecated": false,
-  "homepage": "https://github.com/RandyLiu6410/notily#readme",
+  "homepage": "https://github.com/RandyLiu6410/notily-react#README.md",
   "keywords": [
     "annotation"
   ],
   "license": "MIT",
   "dependencies": {
     "clsx": "^1.2.1",
-    "html2canvas": "^1.4.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "html2canvas": "^1.4.1"
   },
   "devDependencies": {
     "@babel/core": "^7.21.8",

@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { NotilyReactColor, NotilyReactTool, ToolbarProps } from "../../types";
 import { ColorPicker } from "../color-picker";
 import { Tool } from "./tool";

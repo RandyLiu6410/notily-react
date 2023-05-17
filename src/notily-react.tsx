@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import {
   NotilyReactProps,
   NotilyReactTool,
@@ -11,7 +11,7 @@ import "./style.css";
 import { Canvas } from "./components/canvas";
 import { MouseTip } from "./components/mouse-tip";
 
-const NotilyReact = function (props: NotilyReactProps) {
+export const NotilyReact = function (props: NotilyReactProps) {
   const { options } = props;
 
   const [currentColor, setCurrentColor] = useState<string>("");
@@ -37,7 +37,3 @@ const NotilyReact = function (props: NotilyReactProps) {
     </div>
   );
 };
-
-export default NotilyReact;
-
-export * from "./types";
