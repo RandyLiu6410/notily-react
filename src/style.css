@@ -1,0 +1,144 @@
+.notily-react {
+  position: fixed;
+  z-index: 99999;
+}
+
+.notily-react.notily-react--screenshoting .notily-react__toolbar {
+  visibility: hidden;
+}
+.notily-react.notily-react--screenshoting .notily-react__mouse-tip {
+  visibility: hidden;
+}
+
+.notily-react__dnd {
+  position: fixed;
+  display: block;
+}
+
+.notily-react__canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.notily-react__canvas__component-container {
+  position: absolute;
+}
+
+.notily-react__canvas__component-node--rectangle {
+  border: solid;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.notily-react__canvas__component-node--circle {
+  border: solid;
+  border-radius: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.notily-react__canvas__component-node--text {
+  border: none;
+  background: transparent;
+  font-size: 24px;
+}
+
+.notily-react__canvas__component-node--arrow {
+  transform-origin: left top;
+}
+
+.notily-react__canvas__component-node--arrow
+  .notily-react__canvas__component-node--arrow--body {
+  position: relative;
+  border: solid;
+}
+
+.notily-react__canvas__component-node--arrow
+  .notily-react__canvas__component-node--arrow--head {
+  position: absolute;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  transform: rotate(45deg);
+  border: solid;
+  transform-origin: right top;
+}
+
+.notily-react__canvas__component-node--draw {
+}
+
+.notily-react__canvas__component-node--draw--drawing {
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.notily-react__color-picker {
+  display: inline-flex;
+  align-items: center;
+}
+
+.notily-react__color-picker > *:hover {
+  cursor: pointer;
+}
+
+.notily-react__color-picker__preset-color {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+.notily-react__color-picker__preset-color.selected {
+  border: solid 2px #ffffff;
+}
+
+.notily-react__color-picker__random-color {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.notily-react__mouse-tip {
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.notily-react__toolbar {
+  position: fixed;
+  display: inline-flex;
+  padding: 6px 12px;
+  background-color: #000000;
+  border-radius: 8px;
+  z-index: 10;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+}
+
+.notily-react__toolbar__divider {
+  border: solid 1px #646464;
+  margin: 4px 10px;
+}
+
+.notily-react__toolbar__tools {
+  display: inline-flex;
+}
+
+.notily-react__toolbar__tools .notily-react__toolbar__tool:not(:last-child) {
+  margin-right: 10px;
+}
+
+.notily-react__toolbar__tool {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
