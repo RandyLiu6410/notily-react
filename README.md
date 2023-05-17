@@ -4,7 +4,7 @@
 
 An annotation tool for react.
 
-![notily-react demo]()
+![notily-react demo](https://raw.githubusercontent.com/RandyLiu6410/notily-react/main/images/demo.png)
 
 ## Installation
 
