@@ -74,7 +74,7 @@ const mainConfig = {
       ],
     }),
   ],
-  external: ["react", "react-dom"], // Specify external dependencies
+  external: ["react", "react-dom", "html2canvas"], // Specify external dependencies
 };
 
 export const dtsConfig = {
